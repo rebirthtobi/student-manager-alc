@@ -1,0 +1,30 @@
+#box{
+    padding: 0px;
+}
+.navbar-default{
+    background: #7f4cc1;
+    border-radius: 0px;
+    border-right: 0px;
+    border-left: 0px;
+    border-bottom: 0px;
+}
+
+.navbar-default .navbar-brand {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+.navbar-default .navbar-nav>li>a:focus, .navbar-default .navbar-nav>li>a:hover {
+    color: #ffffff;
+}
+
+.navbar-default .navbar-nav>li>a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.navbar-default .navbar-nav>li>a.active{
+    color: #7f4cc1;
+    background: #ffffff;
+}

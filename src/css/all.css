@@ -1,0 +1,31 @@
+blockquote {
+    border-left-color: #7f4cc1;
+}
+
+.loader {
+    max-width: 30%;
+    max-height: 80%;
+}
+
+.edit, .delete{
+    flex-basis: 0;
+    flex-grow: 3;
+    padding: 10px;
+    background: #7f4cc1;
+    border-radius: 4px;
+    border: 2px solid #7f4cc1;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.edit:hover {
+    background: #ffffff;
+    color: #7f4cc1;
+    border-radius: 4px;
+    border: 2px solid #7f4cc1;
+}
+
+.error {
+    padding-bottom: 20px;
+}
