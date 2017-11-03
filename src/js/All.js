@@ -98,7 +98,7 @@ class All extends Component {
                                 }}>Edit</Link>
                             </span>
                             <span className="col-sm-1 right">
-                                <button type='button' onClick={() => this.deleteStudent(item._id)} className='btn btn-danger btn-xs delete'>Delete <img id="runner" src={running} style="display: none;"/></button>
+                                <button type='button' onClick={() => this.deleteStudent(item._id)} className='btn btn-danger btn-xs delete'>Delete <img id="runner" src={running} style={{display:'none'}}/></button>
                             </span>
                         </div>;
                     })}
