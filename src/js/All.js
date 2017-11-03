@@ -20,7 +20,6 @@ class All extends Component {
     }
 
     componentDidMount(){
-        document.getElementById('runner').style.display = 'none';
         let url = 'https://student-api-alc.herokuapp.com/student';
         axios.get(url).then((response) => {
             if (response.status !== 200) {
@@ -35,6 +34,7 @@ class All extends Component {
                 message: info
             });
         });
+        document.getElementById('runner').style.display = 'none';
     }
 
     check = () => {
