@@ -2,6 +2,7 @@
   "name": "student",
   "version": "0.1.0",
   "private": true,
+  "homepage": "http:/student-manager-alc.heroku.com",
   "dependencies": {
     "axios": "^0.17.0",
     "prop-types": "^15.6.0",
